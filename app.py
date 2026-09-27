@@ -134,18 +134,6 @@ st.markdown(
         border-color: #3a4552 !important;
     }
 
-    /* выбранные теги: УБИРАЕМ красный, делаем обводку */
-    [data-testid="stSidebar"] [data-baseweb="tag"] {
-        background: transparent !important;
-        border: 1px solid #465261 !important;
-        border-radius: 8px !important;
-        color: #e6edf3 !important;
-    }
-
-    [data-testid="stSidebar"] [data-baseweb="tag"] span {
-        color: #e6edf3 !important;
-    }
-
     /* крестик удаления внутри тега */
     [data-testid="stSidebar"] [data-baseweb="tag"] svg {
         fill: #aeb8c2 !important;
@@ -246,12 +234,14 @@ selected_categories = st.sidebar.multiselect(
     "Категория",
     options=categories,
     default=categories,
+    key="category_filter",
 )
 
 selected_channels = st.sidebar.multiselect(
     "Канал продаж",
     options=channels,
     default=channels,
+    key="channel_filter",
 )
 
 selected_cities = st.sidebar.multiselect(
