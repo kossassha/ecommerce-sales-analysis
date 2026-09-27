@@ -1,0 +1,181 @@
+product_id,product_name,category,list_price,unit_cost
+P0001,Keyboard I13,Electronics,256.68,133.31
+P0002,Headphones K68,Electronics,264.47,124.19
+P0003,Power Bank U68,Electronics,271.26,146.09
+P0004,Smart Watch F77,Electronics,37.63,27.35
+P0005,Smart Watch T44,Electronics,199.77,123.17
+P0006,Power Bank F28,Electronics,122.4,91.06
+P0007,Smart Watch D96,Electronics,254.13,192.23
+P0008,Mouse W86,Electronics,346.93,171.19
+P0009,Mouse W90,Electronics,280.24,200.51
+P0010,Headphones I93,Electronics,103.37,79.44
+P0011,Power Bank C67,Electronics,77.91,47.9
+P0012,Power Bank H85,Electronics,63.35,43.61
+P0013,Mouse O56,Electronics,38.39,26.06
+P0014,Mouse G49,Electronics,127.49,87.22
+P0015,Smart Watch J85,Electronics,61.62,44.93
+P0016,Keyboard D13,Electronics,60.22,40.85
+P0017,Mouse Z94,Electronics,180.99,113.19
+P0018,Headphones Y41,Electronics,175.15,113.52
+P0019,Keyboard C72,Electronics,86.97,50.0
+P0020,Power Bank Q75,Electronics,45.59,29.51
+P0021,Headphones Z87,Electronics,71.03,51.81
+P0022,Power Bank Q76,Electronics,145.84,77.65
+P0023,Keyboard G61,Electronics,157.4,120.57
+P0024,Mouse P33,Electronics,168.57,117.37
+P0025,Speaker Q55,Electronics,137.63,81.35
+P0026,Mouse Y59,Electronics,59.61,40.87
+P0027,Mouse E39,Electronics,306.58,229.58
+P0028,Headphones Q18,Electronics,162.51,88.36
+P0029,Speaker E88,Electronics,226.17,173.03
+P0030,Keyboard X47,Electronics,177.24,120.05
+P0031,Lamp O74,Home,272.21,205.07
+P0032,Organizer W19,Home,156.15,84.37
+P0033,Pan D77,Home,178.96,99.91
+P0034,Lamp J47,Home,181.72,110.08
+P0035,Lamp V93,Home,127.08,84.0
+P0036,Pan C91,Home,52.13,38.41
+P0037,Blanket O56,Home,130.78,77.52
+P0038,Lamp D30,Home,197.26,134.47
+P0039,Pan Y28,Home,309.36,144.48
+P0040,Vacuum Accessory X37,Home,248.71,135.25
+P0041,Blanket A96,Home,77.93,42.68
+P0042,Pan Y69,Home,107.66,64.89
+P0043,Blanket U87,Home,249.36,183.97
+P0044,Kettle K42,Home,265.56,134.69
+P0045,Kettle G68,Home,308.07,166.66
+P0046,Blanket I22,Home,341.88,176.6
+P0047,Pan K21,Home,54.73,35.94
+P0048,Organizer V97,Home,53.61,34.76
+P0049,Lamp I38,Home,267.57,190.44
+P0050,Kettle F51,Home,198.45,142.59
+P0051,Blanket D23,Home,63.09,32.71
+P0052,Lamp T19,Home,187.42,96.38
+P0053,Pan Q10,Home,255.69,196.25
+P0054,Lamp G19,Home,229.99,119.57
+P0055,Pan L28,Home,14.16,9.92
+P0056,Pan K56,Home,331.8,207.81
+P0057,Blanket E48,Home,61.86,37.02
+P0058,Vacuum Accessory Z38,Home,308.29,209.02
+P0059,Blanket S28,Home,124.7,77.84
+P0060,Kettle F71,Home,275.74,131.38
+P0061,Cream J69,Beauty,15.7,7.66
+P0062,Perfume K30,Beauty,167.61,82.97
+P0063,Perfume O45,Beauty,148.61,88.53
+P0064,Cream E38,Beauty,321.5,208.24
+P0065,Cream P19,Beauty,140.88,86.96
+P0066,Cleanser B87,Beauty,300.18,192.04
+P0067,Cream M37,Beauty,177.25,133.04
+P0068,Cream C65,Beauty,285.98,149.98
+P0069,Mask M84,Beauty,60.37,40.91
+P0070,Serum W55,Beauty,241.83,169.52
+P0071,Perfume S51,Beauty,109.0,59.29
+P0072,Cleanser W92,Beauty,101.55,68.06
+P0073,Cleanser O53,Beauty,263.38,159.55
+P0074,Perfume L18,Beauty,182.57,125.11
+P0075,Shampoo K74,Beauty,84.94,58.93
+P0076,Serum W39,Beauty,99.18,62.83
+P0077,Cleanser Z73,Beauty,300.52,159.98
+P0078,Perfume C86,Beauty,334.26,245.97
+P0079,Mask S75,Beauty,145.32,94.51
+P0080,Serum C78,Beauty,202.41,98.77
+P0081,Cleanser O98,Beauty,23.54,16.73
+P0082,Cream O33,Beauty,92.41,52.19
+P0083,Shampoo V47,Beauty,267.02,161.16
+P0084,Cleanser W98,Beauty,259.34,200.06
+P0085,Mask P87,Beauty,311.87,166.54
+P0086,Serum H11,Beauty,15.03,11.68
+P0087,Serum T68,Beauty,97.26,65.1
+P0088,Shampoo L39,Beauty,62.88,45.89
+P0089,Mask F85,Beauty,12.19,7.26
+P0090,Cleanser V32,Beauty,135.94,87.48
+P0091,Jeans Z52,Clothing,320.88,179.02
+P0092,Jeans O33,Clothing,308.09,217.23
+P0093,Dress A61,Clothing,21.93,16.69
+P0094,T-Shirt P32,Clothing,209.36,133.96
+P0095,T-Shirt L14,Clothing,276.95,138.19
+P0096,Dress O79,Clothing,265.22,132.43
+P0097,Hoodie J25,Clothing,168.55,116.54
+P0098,Jeans T90,Clothing,80.03,44.04
+P0099,Sneakers E67,Clothing,339.39,202.98
+P0100,Sneakers D41,Clothing,83.1,46.79
+P0101,Dress W13,Clothing,349.83,192.37
+P0102,T-Shirt K34,Clothing,183.42,87.6
+P0103,Sneakers U12,Clothing,101.73,79.09
+P0104,T-Shirt Z37,Clothing,25.33,15.15
+P0105,Jeans R72,Clothing,66.7,32.72
+P0106,Dress M94,Clothing,180.93,125.77
+P0107,Sneakers N62,Clothing,313.17,166.42
+P0108,Hoodie T23,Clothing,185.15,99.13
+P0109,Hoodie R92,Clothing,297.26,137.25
+P0110,Hoodie P14,Clothing,254.79,138.2
+P0111,Dress C59,Clothing,303.31,160.54
+P0112,Jeans G17,Clothing,34.86,17.53
+P0113,Jacket S84,Clothing,138.3,101.21
+P0114,Dress Z72,Clothing,307.4,161.63
+P0115,Dress S22,Clothing,162.76,92.19
+P0116,Jeans R19,Clothing,330.95,196.78
+P0117,Jacket H20,Clothing,244.09,156.18
+P0118,Hoodie V77,Clothing,218.87,163.38
+P0119,Jacket C54,Clothing,247.16,154.65
+P0120,Jacket W89,Clothing,215.39,127.71
+P0121,Backpack P67,Sports,221.67,132.2
+P0122,Yoga Mat S93,Sports,339.37,260.21
+P0123,Backpack O77,Sports,288.69,187.24
+P0124,Dumbbell R64,Sports,68.89,41.89
+P0125,Yoga Mat O76,Sports,96.0,43.31
+P0126,Bottle J12,Sports,303.44,187.99
+P0127,Resistance Band C96,Sports,94.92,64.42
+P0128,Backpack D46,Sports,282.75,220.5
+P0129,Gloves T48,Sports,127.39,67.6
+P0130,Resistance Band K89,Sports,39.92,23.16
+P0131,Resistance Band U33,Sports,13.96,6.81
+P0132,Gloves B98,Sports,62.67,43.34
+P0133,Yoga Mat G34,Sports,44.12,32.46
+P0134,Bottle S19,Sports,45.14,20.46
+P0135,Gloves Z29,Sports,252.6,135.06
+P0136,Yoga Mat Y47,Sports,46.17,35.79
+P0137,Bottle V55,Sports,50.88,29.81
+P0138,Bottle O26,Sports,91.75,49.37
+P0139,Backpack J85,Sports,284.51,153.69
+P0140,Resistance Band T32,Sports,154.35,70.1
+P0141,Backpack O10,Sports,319.15,211.21
+P0142,Bottle G56,Sports,76.94,52.39
+P0143,Gloves K61,Sports,239.62,112.61
+P0144,Dumbbell S65,Sports,206.16,146.69
+P0145,Gloves J88,Sports,97.92,48.01
+P0146,Resistance Band W92,Sports,279.51,161.39
+P0147,Dumbbell C72,Sports,16.1,11.59
+P0148,Backpack A62,Sports,123.95,81.47
+P0149,Backpack Q28,Sports,42.18,19.98
+P0150,Resistance Band E36,Sports,321.49,177.71
+P0151,Cookbook B12,Books,233.95,181.65
+P0152,Cookbook R66,Books,187.58,116.66
+P0153,Business Book A69,Books,136.91,88.71
+P0154,Guide R79,Books,277.51,163.73
+P0155,Cookbook D95,Books,121.7,90.25
+P0156,Cookbook A39,Books,298.56,159.48
+P0157,Novel N22,Books,252.75,180.98
+P0158,Guide S94,Books,73.76,53.75
+P0159,Textbook U52,Books,133.69,74.31
+P0160,Cookbook W66,Books,156.8,105.9
+P0161,Textbook M55,Books,54.92,32.61
+P0162,Textbook N98,Books,20.33,12.22
+P0163,Notebook G89,Books,233.9,173.77
+P0164,Guide F53,Books,289.97,151.8
+P0165,Textbook E62,Books,128.66,97.9
+P0166,Novel R81,Books,198.82,120.67
+P0167,Textbook L88,Books,162.27,76.17
+P0168,Textbook E27,Books,287.81,172.85
+P0169,Cookbook V89,Books,103.57,58.33
+P0170,Novel E52,Books,254.85,161.5
+P0171,Business Book C20,Books,88.06,57.73
+P0172,Guide A52,Books,49.86,29.98
+P0173,Novel X97,Books,177.0,89.39
+P0174,Textbook V48,Books,215.24,108.03
+P0175,Textbook E57,Books,60.92,44.63
+P0176,Business Book E88,Books,223.57,146.85
+P0177,Guide Z37,Books,295.0,204.78
+P0178,Textbook O46,Books,221.82,132.72
+P0179,Guide T84,Books,142.6,82.01
+P0180,Textbook T44,Books,52.22,30.8
