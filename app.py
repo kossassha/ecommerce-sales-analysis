@@ -29,12 +29,17 @@ st.markdown(
 
     .block-container {
         max-width: 1400px;
-        padding-top: 2rem;
+        padding-top: 4.2rem;
         padding-bottom: 3rem;
     }
 
     [data-testid="stSidebar"] {
         border-right: 1px solid #2a3038;
+        background: #161b22;
+    }
+
+    [data-testid="stSidebar"] .block-container {
+        padding-top: 2rem;
     }
 
     .report-kicker {
@@ -42,13 +47,15 @@ st.markdown(
         letter-spacing: 0.14em;
         text-transform: uppercase;
         color: #8b949e;
-        margin-bottom: 4px;
+        margin-top: 8px;
+        margin-bottom: 10px;
     }
 
     .report-title {
         font-size: 32px;
         font-weight: 700;
-        margin-bottom: 4px;
+        margin-top: 0;
+        margin-bottom: 8px;
     }
 
     .report-subtitle {
@@ -105,11 +112,66 @@ st.markdown(
         overflow: hidden;
     }
 
+    /* ---------- САЙДБАР ---------- */
+
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h3,
+    [data-testid="stSidebar"] label {
+        color: #e6edf3 !important;
+    }
+
+    /* контейнеры select / multiselect */
+    [data-testid="stSidebar"] [data-baseweb="select"] > div {
+        background: #0f141b !important;
+        border: 1px solid #2a3038 !important;
+        border-radius: 10px !important;
+        box-shadow: none !important;
+        min-height: 52px;
+    }
+
+    /* hover/focus */
+    [data-testid="stSidebar"] [data-baseweb="select"] > div:hover {
+        border-color: #3a4552 !important;
+    }
+
+    /* выбранные теги: УБИРАЕМ красный, делаем обводку */
+    [data-testid="stSidebar"] [data-baseweb="tag"] {
+        background: transparent !important;
+        border: 1px solid #465261 !important;
+        border-radius: 8px !important;
+        color: #e6edf3 !important;
+    }
+
+    [data-testid="stSidebar"] [data-baseweb="tag"] span {
+        color: #e6edf3 !important;
+    }
+
+    /* крестик удаления внутри тега */
+    [data-testid="stSidebar"] [data-baseweb="tag"] svg {
+        fill: #aeb8c2 !important;
+    }
+
+    /* текст в input */
+    [data-testid="stSidebar"] input {
+        color: #e6edf3 !important;
+    }
+
+    /* date input */
+    [data-testid="stSidebar"] [data-testid="stDateInput"] > div > div {
+        background: #0f141b !important;
+        border: 1px solid #2a3038 !important;
+        border-radius: 10px !important;
+    }
+
+    /* вкладки чуть строже */
+    button[data-baseweb="tab"] {
+        font-weight: 500 !important;
+    }
+
     </style>
     """,
     unsafe_allow_html=True,
 )
-
 
 # ---------------------------------------------------------
 # ЗАГРУЗКА ДАННЫХ
@@ -244,7 +306,6 @@ average_order_value = (
 
 st.markdown(
     """
-    <div class="report-kicker">АНАЛИТИЧЕСКИЙ ОТЧЁТ</div>
     <div class="report-title">Продажи интернет-магазина</div>
     <div class="report-subtitle">
         Продажи, клиенты, категории, каналы и качество заказов
@@ -252,7 +313,6 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
 
 # ---------------------------------------------------------
 # KPI-КАРТОЧКИ
