@@ -248,6 +248,7 @@ selected_cities = st.sidebar.multiselect(
     "Город",
     options=cities,
     default=cities,
+    key="city_filter",
 )
 
 
@@ -565,20 +566,33 @@ with tab_products:
             revenue=("revenue", "sum"),
             profit=("profit", "sum"),
         )
+    category_profit_display = category_profit.rename(
+    columns={
+        "revenue": "Выручка",
+        "profit": "Прибыль",
+    }
+        )
     )
 
     fig_category_profit = px.bar(
-        category_profit,
+        category_profit_display,
         x="category",
-        y=["revenue", "profit"],
+        y=["Выручка", "Прибыль"],
         barmode="group",
         labels={
             "category": "Категория",
             "value": "Сумма",
             "variable": "Показатель",
-        },
-    )
+    },
+)
 
+    fig_category_profit.update_layout(
+        height=430,
+        margin=dict(l=10, r=10, t=10, b=10),
+    xaxis_title=None,
+        yaxis_title="Сумма",
+        legend_title_text="",
+)
     fig_category_profit.update_layout(
         height=430,
         margin=dict(l=10, r=10, t=10, b=10),
